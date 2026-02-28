@@ -4,18 +4,6 @@
 
 This project implements a machine learning–based approach to detect fake Instagram accounts using profile-level and behavioral features. Fake accounts contribute to misleading engagement metrics and reduce platform credibility. The objective of this project is to classify Instagram accounts as **fake** or **genuine** reliably and systematically.
 
-
-
-## Project Structure
-
-BA_DA-2/
-├── train.csv
-├── test.csv
-├── fake_engagement_detection.py
-└── test_predictions.csv
-
-
-
 ## Dataset Description
 
 The dataset consists of Instagram account metadata. Each record represents one account and is labeled as either genuine or fake.
@@ -80,5 +68,6 @@ The script outputs validation results, displays a confusion matrix, and generate
 ## Conclusion
 
 This project demonstrates that machine learning techniques can effectively detect fake Instagram accounts using profile-based and behavioural features. The Random Forest model provided superior performance and reliable insights into engagement authenticity, making it suitable for practical fake engagement detection tasks.
+
 
 
